@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  *{
+    background-color: rgb(108, 40, 40);
+  }
+  header {
+    color:whitesmoke;
+    padding: 10px 0;
+    text-align: center;
+    background-color: black;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  h2{
+    color:bisque;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  main {
+    margin-top: 20px;
+  }
+  
+  p {
+    line-height: 1.5;
+    color:burlywood;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+  }
+  
+  article{
+    color:burlywood;
+
+  }
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+  }
+  
+  img{
+    width: 300px;
+    border-radius: 20px;
+    height: 200px;
+    margin-top:20px;
+  }
+
+  a{
+    color:rgb(211, 199, 199);
+    
+  }
+
+  a:hover{
+    color:yellow;
+    background-color: rgb(83, 83, 83);
+    font-weight: bold;
+  }
+
+  ul,ol{
+    color:antiquewhite
+  }
+  @media only screen and (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+    .content {
+      width: 100%;
+    }
+  }
+
+  body {
+    font-size: 16px;
+    margin: 0;
+  }
+  .NewFunction{
+    color:rgb(236, 149, 169);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+  .Area{
+    color:rgb(245, 117, 117);
+    background-color: white;
+  }
+  .thebutton{
+    color:wheat;
+    background-color: rgb(61, 61, 60);
+  }
